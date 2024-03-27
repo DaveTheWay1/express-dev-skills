@@ -5,16 +5,16 @@ const skills = [
     {id: 3, type:'technical skill', ability:'python'}
 ]
 
-module.export = {
-    skills:getAll(),
-    skill:getOne(),
+module.exports = {
+    getAll,
+    getOne
 }
 
 function getAll(){
-    return skills;
+    return skills
 }
 
 function getOne(id){
     id = parseInt(id);
-    skills.find((skill) => skill.id === id);
+    return skills.find((skill) => skill.id === id);
 }

@@ -1,8 +1,8 @@
 const skills = [
-    {id: 0, type:'soft skill', ability: 'leadership'},
-    {id: 1, type:'technical skill', ability: 'javascript'},
-    {id: 2, type:'soft skill', ability:'communicate'},
-    {id: 3, type:'technical skill', ability:'python'}
+    {id: 0, type:'Soft Skill', ability: 'Leadership'},
+    {id: 1, type:'Technical Skill', ability: 'Javascript'},
+    {id: 2, type:'Soft Skill', ability:'Communication'},
+    {id: 3, type:'Technical Skill', ability:'Python'}
 ]
 
 module.exports = {

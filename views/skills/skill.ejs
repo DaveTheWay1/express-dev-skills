@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single Skill</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
     <h1>Skill</h1>
     <p>
-        <%= skill.type %>
+        Skill Type: <%= skill.type %>
     </p>
+    <p>
+        Skill: <%=skill.ability %>
+    </p>
+    <a href="/skills">View Skills</a>
+    <a href="/">Home</a>
 </body>
 </html>
